@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>معرض أعمالي | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- الهيدر -->
+  <header class="site-header">
+    <div class="container flex-between">
+      <h1 class="logo">أصيل | معرض الأعمال</h1>
+
+      <!-- أيقونة الهمبرجر -->
+      <div class="menu-toggle" id="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      <nav class="nav" id="nav">
+        <a href="#works">الأعمال</a>
+        <a href="#about">من أنا</a>
+        <a href="#testimonials">آراء العملاء</a>
+        <a href="#contact">تواصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- القسم الرئيسي -->
+  <section class="hero">
+    <div class="container center">
+      <h2>أصمم مواقع عصرية ✨</h2>
+      <p>أحوّل أفكارك الرقمية إلى واقع جميل وسهل الاستخدام</p>
+      <a href="#works" class="btn">شاهد أعمالي</a>
+    </div>
+  </section>
+
+  <!-- عداد إحصائيات -->
+  <section class="stats section alt">
+    <div class="container grid">
+      <div class="stat">
+        <span class="number" data-target="99">0</span>
+        <p>مشروع منجز</p>
+      </div>
+      <div class="stat">
+        <span class="number" data-target="24">0</span>
+        <p>ساعة عمل</p>
+      </div>
+      <div class="stat">
+        <span class="number" data-target="99">0</span>
+        <p>عملاء سعيدين</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- الأعمال -->
+  <section id="works" class="section">
+    <div class="container">
+      <h2 class="section-title">أعمال مختارة</h2>
+
+      <div class="grid">
+
+        <a href="https://aseel2025.github.io/ruaq/" target="_blank" class="card">
+          <img src="https://via.placeholder.com/600x400?text=E-Commerce" alt="رواق">
+          <h3>موقع تعريفـي لشركة تطوير عقاري - رواق</h3>
+          <p>واجهة تعريفية لشركة تطوير عقاري، بهوية بصرية راقية وعرض منظم للمشاريع ومراحل العمل.</p>
+        </a>
+
+        <a href="https://aseel2025.github.io/anjaz/" target="_blank" class="card">
+          <img src="https://via.placeholder.com/600x400?text=Landing+Page" alt="إنجاز">
+          <h3>واجهة صفحة هبوط لتطبيق "إنجاز"</h3>
+          <p>واجهة صفحة هبوط لتطبيق إنتاجية، صُممت بأسلوب بسيط ونظيف لتنظيم مهام اليوم وإبراز أزرار التحميل بفعالية.</p>
+        </a>
+
+        <a href="##" target="_blank" class="card">
+          <img src="https://via.placeholder.com/600x400?text=Dashboard" alt="لوحة تحكم">
+          <h3>لوحة تحكم</h3>
+          <p>قريبا...</p>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- من أنا -->
+  <section id="about" class="section alt">
+    <div class="container">
+      <h2 class="section-title">من أنا؟</h2>
+      <p>مطور واجهات أمامية أهوى البساطة والجمال في تصميم الويب. أستخدم HTML, CSS, JavaScript لبناء مواقع سريعة وجذابة.</p>
+    </div>
+  </section>
+
+  <!-- آراء العملاء -->
+  <section id="testimonials" class="section alt">
+    <div class="container">
+      <h2 class="section-title">آراء العملاء</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p>"موقع احترافي وسهل الاستخدام. أنصح به بشدة!"</p>
+          <span>- أحمد، صاحب متجر</span>
+        </div>
+        <div class="testimonial-card">
+          <p>"فكرة التصميم مبتكرة والتعامل كان رائع."</p>
+          <span>- سارة، مسوقة رقمية</span>
+        </div>
+        <div class="testimonial-card">
+          <p>"سرعة في الإنجاز وجودة عالية 👌."</p>
+          <span>- محمد، رائد أعمال</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- تواصل -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">تواصل معي</h2>
+      <form action="https://formspree.io/f/xqpzawgq" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="اسمك" required>
+        <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+        <textarea name="message" rows="5" placeholder="رسالتك" required></textarea>
+        <button type="submit" class="btn">إرسال</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- الفوتر -->
+  <footer class="site-footer">
+    <div class="container center">
+      <p>جميع الحقوق محفوظة أصيل | معرض الأعمال ©2026</p>
+    </div>
+  </footer>
+
+  <!-- سكربت قائمة الهمبرجر -->
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const nav = document.getElementById('nav');
+
+    menuToggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+      menuToggle.classList.toggle('active'); // لإضافة الحركة للخطوط
+    });
+  </script>
+
+  <!-- سكربت عداد الإحصائيات -->
+  <script>
+    const counters = document.querySelectorAll('.number');
+    const speed = 200; // سرعة العد
+
+    counters.forEach(counter => {
+      const updateCount = () => {
+        const target = +counter.getAttribute('data-target');
+        const count = +counter.innerText;
+
+        const increment = Math.ceil(target / speed);
+
+        if (count < target) {
+          counter.innerText = count + increment;
+          setTimeout(updateCount, 30);
+        } else {
+          counter.innerText = target;
+        }
+      };
+
+      updateCount();
+    });
+  </script>
+
+</body>
+</html>
